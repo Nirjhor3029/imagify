@@ -1,8 +1,21 @@
 client:
-
+-------
 npm create vite@latest
 
 
-add tailwind css
+add tailwind css:
+-----------------
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
+
+
+
+react-router:
+-------------
+npm install react-router-dom
+
+
+add google font:
+---------------
+outfit font
+https://fonts.google.com/selection/embed
