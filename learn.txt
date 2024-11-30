@@ -4,3 +4,5 @@ npm create vite@latest
 
 
 add tailwind css
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
