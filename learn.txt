@@ -1,0 +1,6 @@
+client:
+
+npm create vite@latest
+
+
+add tailwind css
