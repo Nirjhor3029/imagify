@@ -19,3 +19,11 @@ add google font:
 ---------------
 outfit font
 https://fonts.google.com/selection/embed
+
+
+Context API:
+-------------
+create Context
+AppContext Provider
+useContext
+
