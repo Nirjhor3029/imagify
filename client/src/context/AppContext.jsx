@@ -11,6 +11,8 @@ const AppContextProvider = (props) => {
     const [showLogin, setShowLogin] = useState(false);
     const [showPassword, setShowPassword] = useState(false);
 
+
+
     const value = {
         user,
         setUser,
@@ -19,6 +21,8 @@ const AppContextProvider = (props) => {
         showPassword,
         setShowPassword
     }
+
+
 
     return (
         <AppContext.Provider value={value} >
