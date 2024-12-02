@@ -4,9 +4,9 @@ const Testimonials = () => {
     return (
         <div>
             <div className="flex flex-col items-center justify-center my-20 py-12 md:px-28">
-                <hl className='text-3xl sm:text-4xl font-semibold mb-2 capitalize'>
+                <h1 className='text-3xl sm:text-4xl font-semibold mb-2 capitalize'>
                     Customer testimonials
-                </hl>
+                </h1>
                 <p className='text-gray-500 mb-12 capitalize' >
                     What our users are saying
                 </p>

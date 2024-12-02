@@ -1,12 +1,15 @@
 
+import { useContext } from 'react'
 import './App.css'
 import Footer from './components/Footer'
+import Login from './components/Login'
 import NavBar from './components/NavBar'
 import BuyCredit from './pages/BuyCredit'
 import Home from './pages/Home'
 import Result from './pages/Result'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { AppContext } from './context/AppContext'
 
 function App() {
 
@@ -25,6 +28,9 @@ function App() {
   //   },
   // ]);
 
+  const {showLogin} = useContext(AppContext)
+
+
   return (
     <div className='
     px-4 sm:px-10 md-px-14 lg:px-20 min-h-screen
@@ -33,6 +39,7 @@ function App() {
 
       <BrowserRouter>
         <NavBar/>
+        {showLogin && <Login/>}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/result" element={<Result />} />

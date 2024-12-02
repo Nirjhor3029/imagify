@@ -7,9 +7,11 @@ import { AppContext } from '../context/AppContext';
 
 const NavBar = () => {
 
-    const {user,setUser} = useContext(AppContext);
+    const {user,setUser,setShowLogin} = useContext(AppContext);
 
-    console.log(user);
+
+
+    // console.log(user);
     
     // const [user, setUser] = useState(true)
 
@@ -50,7 +52,7 @@ const NavBar = () => {
                         <p className='cursor-pointer font-semibold'>Pricing</p>
                     </Link> */}
                     <p onClick={() => { navigate('/buy') }} className='cursor-pointer font-semibold'>Pricing</p>
-                    <button className='bg-zinc-800 text-white py-2 px-7 sm:px-10 text-sm rounded-full'>Login</button>
+                    <button className='bg-zinc-800 text-white py-2 px-7 sm:px-10 text-sm rounded-full' onClick={() => setShowLogin(true)}>Login</button>
                 </div>
             }
         </div>
