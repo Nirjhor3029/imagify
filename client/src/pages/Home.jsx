@@ -2,7 +2,6 @@ import { useNavigate } from "react-router"
 import Description from "../components/Description"
 import GnerateButton from "../components/GnerateButton"
 import Header from "../components/Header"
-import Login from "../components/Login"
 import Steps from "../components/Steps"
 import Testimonials from "../components/Testimonials"
 import { useContext } from "react"
@@ -16,7 +15,7 @@ const Home = () => {
 
     const generateImageBtnOnClickHandler = () => {
         console.log('generateImageBtnOnClickHandler');
-        
+
         if (user) {
             navigate('/result');
         } else {
@@ -26,11 +25,11 @@ const Home = () => {
 
     return (
         <div>
-            <Header generateImageBtnOnClickHandler={generateImageBtnOnClickHandler}/>
-            <Steps/>
-            <Description/>
-            <Testimonials/>
-            <GnerateButton generateImageBtnOnClickHandler={generateImageBtnOnClickHandler}/>
+            <Header generateImageBtnOnClickHandler={generateImageBtnOnClickHandler} />
+            <Steps />
+            <Description />
+            <Testimonials />
+            <GnerateButton generateImageBtnOnClickHandler={generateImageBtnOnClickHandler} />
         </div>
     )
 }

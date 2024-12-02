@@ -1,10 +1,8 @@
-import { useContext, useRef } from "react";
+import {  useRef } from "react";
 import { assets } from "../assets/assets";
 import HeaderText from "./HeaderText";
-import { useNavigate } from "react-router";
 
-import { delay, motion } from "framer-motion"
-import { AppContext } from "../context/AppContext";
+import {  motion } from "framer-motion"
 // eslint-disable-next-line react/prop-types
 const Header = ({generateImageBtnOnClickHandler}) => {
 
@@ -13,7 +11,6 @@ const Header = ({generateImageBtnOnClickHandler}) => {
     const render = useRef(0);
     console.log(` Header.jsx rendered: ${render.current++}`);
 
-    const navigate = useNavigate();
 
     return (
         <motion.div className="flex flex-col justify-center items-center"

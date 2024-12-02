@@ -88,7 +88,18 @@ step-6: Login Signup
 
 
 step-6: Motion framer
+------------------------------ End OF Frond end or client part --------------
 
+
+Backend ============================== Server ================
+
+server.js
+npm init
+
+package.json
+  "type": "module",
+
+npm i express cors dotenv nodemon form-data jsonwebtoken mongoose axios bcrypt rezorpay 
 
 
 API Keys: https://clipdrop.co/apis/account
