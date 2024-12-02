@@ -10,7 +10,7 @@ npx tailwindcss init
 
 
 
-react-router:
+react-router-dom:
 -------------
 npm install react-router-dom
 
@@ -21,9 +21,72 @@ outfit font
 https://fonts.google.com/selection/embed
 
 
+step:1 Navigation bar
+========
+navigation bar with conditional components user login or not. 
+
+Router, Browser Router,
+Link
+
+useState() hooks
+useNavigate() hooks
+
+
 Context API:
 -------------
 create Context
 AppContext Provider
 useContext
 
+
+
+step:2 Header.
+========
+Header.
+
+HeaderText:
+React Fragments
+conditional components loading.
+learn useRef() hooks
+
+step:3 Steps
+============
+
+step:3 Descriptions
+============
+
+
+step:3 Textimonials
+============
+why use map type iterations over normal loops in react.
+
+
+
+step:3 Results page:
+-------------------
+
+useState() hooks
+
+conditional components
+conditional class names
+download image by url
+
+onclick handleMethod/handleAction 
+
+controlled/uncontrolled field
+
+form Submit handler
+
+
+
+
+
+API Keys: https://clipdrop.co/apis/account
+--------
+
+Your user ID is P9EAxgDqhabsLX0nm7jzAxnDQfM2
+
+Your email is sazzad3029@gmail.com
+
+API Keys
+5f233cc6a4c84e57e4ff40d5c4fa1625db0ab93699d7125d2d6d62ed0023a8975fad0be8e3b269e0e9d1f12c13affb7d

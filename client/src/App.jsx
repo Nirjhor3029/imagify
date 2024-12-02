@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import BuyCredit from './pages/BuyCredit'
 import Home from './pages/Home'
@@ -37,6 +38,7 @@ function App() {
           <Route path="/result" element={<Result />} />
           <Route path="/buy" element={<BuyCredit />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
       {/* <Home/>
       <Result/>

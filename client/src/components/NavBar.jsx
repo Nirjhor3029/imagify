@@ -16,7 +16,7 @@ const NavBar = () => {
     const navigate = useNavigate();
 
     return (
-        <div className='flex justify-between items-center py-4'>
+        <div className='flex justify-between items-center min-h-[10vh]'>
             <Link to='/'>
                 <img src={assets.logo} alt="" className='w-28 sm:w-32 md:w-40' />
             </Link>
