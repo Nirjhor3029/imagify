@@ -62,7 +62,7 @@ why use map type iterations over normal loops in react.
 
 
 
-step:3 Results page:
+step:4 Results page:
 -------------------
 
 useState() hooks
@@ -76,6 +76,12 @@ onclick handleMethod/handleAction
 controlled/uncontrolled field
 
 form Submit handler
+
+
+step:5 Buy page:
+----------------
+
+useContext() hooks & benefits of context api 
 
 
 
