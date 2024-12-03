@@ -99,7 +99,30 @@ npm init
 package.json
   "type": "module",
 
+
+
 npm i express cors dotenv nodemon form-data jsonwebtoken mongoose axios bcrypt rezorpay 
+
+  "start": "node server.js",
+    "server": "nodemon server.js"
+
+
+step-2: mongodb connection
+------------------------
+mongodb
+
+step-3: Models & Controllers
+----------------------------
+user Model
+    schema
+
+user Controller
+    register
+        how to use bcrypt for hashing password
+        create user
+        generate token by jsonWebToken (JWT)
+    login 
+      how to match password 
 
 
 API Keys: https://clipdrop.co/apis/account
